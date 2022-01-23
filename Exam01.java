@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class Exam01 {
 
 	public static void main(String[] args) {
-		System.out.print("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		Scanner sc = new Scanner(System.in);
-		// int num2 = 100; ³ë¶õÁÙ - »ç¿ë¾ÈÇÔ(ºÒÇÊ¿ä)
+		// int num2 = 100; ë…¸ë€ì¤„ -  ì‚¬ìš©ì•ˆí•¨(ë¶ˆí•„ìš”)
 		int num = sc.nextInt();
 		if (num % 2 == 0) {
-			System.out.println(num + "´Â(Àº) Â¦¼öÀÔ´Ï´Ù.");
+			System.out.println(num + "ëŠ”(ì€) ì§ìˆ˜ì…ë‹ˆë‹¤.");
 		} else {
-			System.out.println(num + "´Â(Àº) È¦¼öÀÔ´Ï´Ù.");
+			System.out.println(num + "ëŠ”(ì€) í™€ìˆ˜ì…ë‹ˆë‹¤.");
 		}
 		
 		sc.close();
